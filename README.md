@@ -14,16 +14,13 @@ There are six values on each line, which are as follows:
     - **price**: the price of the car.
     ...
 
+```markdown
 ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
-
 *http://carsapi.com/year/[year]*
-
 where you replace [year] with the year.
 For example, the URL:
-
 *http://carsapi.com/year/2005*
-
 will return a list of cars purchased in 2005.
 
 The data will be returned in JSON format, with the following properties for each car:
@@ -37,5 +34,6 @@ An example of a response would be:
     ```json
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
     ```
+'''
 
 
