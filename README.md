@@ -14,7 +14,6 @@ There are six values on each line, which are as follows:
     - **price**: the price of the car.
     ...
 
-```markdown
 ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
 *http://carsapi.com/year/[year]*
@@ -34,6 +33,5 @@ An example of a response would be:
     ```json
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
     ```
-'''
 
 
