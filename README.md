@@ -44,5 +44,10 @@ The data will be returned in JSON format, with the following properties for each
 An example of a response would be:
 
     ```json
-    [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
+    [ {"Name": "Market St", "Type": "Pay/Surface Carpark", "No_Spaces": 88, "Latitude": 53.273, "Longitute": -9.054}, 
+        {"Name": "Jurys Hotel", "Type": "Multistorey Carpark", "No_Spaces": 348, "Latitude": 53.271, "Longitute": -9.055},
+        {"Name": "Gaol Rd / Cathedral", "Type": "Pay/Surface Carpark", "No_Spaces": 161, "Latitude": 53.274, "Longitute": -9.057},
+        {"Name": "Harbour", "Type": "Pay/Surface Carpark", "No_Spaces": -, "Latitude": 53.27, "Longitute": -9.052},
+        ...
+    ]
     ```
