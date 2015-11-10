@@ -1,9 +1,9 @@
-# data-project
 ## Data Representation and Querying Project 2015
-### Student Name
+### Alanna Curran
 
 ## Introduction
-This project provides the design and documentation for the dataset "Dataset title" which is available at [data.gov.ie](http://data.gov.ie)...
+This project provides the design and documentation for the dataset "Galway City Car Parking" which is available at [data.gov.ie](http://data.gov.ie).
+I chose the Galway city car parking dataset as when people drive into galway its handy to know where the car parks are, whether you have to pay to use it and how many spaces it has. 
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [Galway City Car Parking](https://data.gov.ie/dataset/galway-city-car-parking-locations/resource/d967950d-faab-45ad-815d-211c9bcfb38e).
