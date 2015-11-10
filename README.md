@@ -23,21 +23,23 @@ There are twelve values on each line, which are as follows:
 - **EastIG**: 
 - **NorthIG**: 
 
-## List of cars for a given year
-You can get a list of cars purchased in a given year using the GET method at the following URL:
+## List of car parks by type
+You can get a list of car parks of a certain type by using the GET method at the following URL:
 
-*http://carsapi.com/year/[year]*
-where you replace [year] with the year.
+*http://parking-galway.ie/type/[type]*
+where you replace [type] with the type of car park you're looking for.
 For example, the URL:
 
-*http://carsapi.com/year/2005*
-will return a list of cars purchased in 2005.
+*http://parking-galway.ie/type/surface*
+will return a list of car parks that are surface car parks.
 
 The data will be returned in JSON format, with the following properties for each car:
 
-    - *price*: the price of the car.
-    - *model*: the model of the car.
-    ...
+- *Name*: The name of the car park.
+- *Type*: The type of car park.
+- *No_Spaces*: The number of spaces in the car park.
+- *Lat*: The latitude of the car park.
+- *Long*: The longitude of the car park.
 
 An example of a response would be:
 
