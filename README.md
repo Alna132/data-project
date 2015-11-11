@@ -20,8 +20,17 @@ There are twelve values on each line, which are as follows:
 - **Long**: The longitude of the car park.
 - **EastITM**: The easting coordinate of the Irish transverse Mercator, it means that the location is x metres east from the false origin (along the X-axis).
 - **NorthITM**: The northing coordinate of the Irish transverse Mercator, it means that the location is x metres north from the false origin (along the Y-axis).
-- **EastIG**: 
-- **NorthIG**: 
+- **EastIG**: The easterly Irish Grid reference number.
+- **NorthIG**: The northerly Irish Grid reference number.
+
+### Reference:
+EastITM & NorthITM: 
+> An ITM co-ordinate is generally given as a pair of two six-digit numbers (excluding any digits behind a decimal point which may be used in very precise surveying). The first number is always the easting and the second is the northing. The easting and northing are in meters from the false origin.
+> [Wikipedia](https://en.m.wikipedia.org/wiki/Irish_Transverse_Mercator)
+
+EastIG & NorthIG:
+> Coordinates may also be given relative to the origin of the entire 500 by 500 km (310 by 310 mi) grid (in the format easting, northing). 
+> [Wikipedia](https://en.m.wikipedia.org/wiki/Irish_grid_reference_system#Eastings_and_northings)
 
 ## List of car parks by type
 You can get a list of car parks of a certain type by using the GET method at the following URL:
