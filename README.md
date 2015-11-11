@@ -52,13 +52,13 @@ The data will be returned in JSON format, with the following properties for each
 
 An example of a response would be:
 
-'''json
+```json
 [ {"Name": "Market St", "Type": "Pay/Surface Carpark", "No_Spaces": 88, "Latitude": 53.273, "Longitute": -9.054},
   {"Name": "Gaol Rd/Cathedral", "Type": "Pay/Surface Carpark", "No_Spaces": 161, "Latitude": 53.274, "Longitute": -9.057},
   {"Name": "Harbour", "Type": "Pay/Surface Carpark", "No_Spaces": "N/A", "Latitude": 53.27, "Longitute": -9.052},
   {"Etc..."}
 ]
-'''
+```
 
 ## List of all car parks.
 
@@ -79,11 +79,11 @@ The data will be returned in JSON format, with the following properties for each
 
 
 An example of a response would be:
-'''json
+```json
 [ {"Name": "Market St", "Type": "Pay/Surface Carpark", "No_Spaces": 88, "Latitude": 53.273, "Longitute": -9.054, "EastITM": 529691.955, "NorthITM": 725294.803, "EastIG": 129726.012, "NorthIG": 225265.639},
   {"Name": "Jurys Hotel", "Type": "Multistorey Carpark", "No_Spaces": 348, "Latitude": 53.271, "Longitute": -9.055, "EastITM": 529691.955, "NorthITM": 725294.803, "EastIG": 129726.012, "NorthIG": 225265.639},
   {"Name": "Gaol Rd/Cathedral", "Type": "Pay/Surface Carpark", "No_Spaces": 161, "Latitude": 53.274, "Longitute": -9.057, "EastITM": 529691.955, "NorthITM": 725294.803, "EastIG": 129726.012, "NorthIG": 225265.639},
   {"Name": "Harbour", "Type": "Pay/Surface Carpark", "No_Spaces": "N/A", "Latitude": 53.27, "Longitute": -9.052, "EastITM": 529691.955, "NorthITM": 725294.803, "EastIG": 129726.012, "NorthIG": 225265.639},
   {"Etc..."}
 ]
-'''
+```
