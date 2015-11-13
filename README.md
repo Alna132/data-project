@@ -4,7 +4,7 @@
 ## Introduction
 This project provides the design and documentation for the dataset "Galway City Car Parking" which is available at [data.gov.ie](http://data.gov.ie).
 I chose the Galway city car parking dataset as when people drive into galway its handy to know where the car parks are, whether you have to pay to use it and how many spaces it has. 
-With this dataset users can put the longitude and latitude coordinates into their tomtom or satnav and be directed directly to a carp ark of their choosing. I believe that this will be useful to both people living in galway and from outside.
+With this dataset users can put the longitude and latitude coordinates into their tomtom or satnav and be directed directly to a car park of their choosing. I believe that this will be useful to both people living in galway and from outside.
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [Galway City Car Parking](https://data.gov.ie/dataset/galway-city-car-parking-locations/resource/d967950d-faab-45ad-815d-211c9bcfb38e).
@@ -91,4 +91,4 @@ An example of a response would be:
 
 ## Editing to the dataset
 
-Seeing as the dataset is about public car parks, there will be not editing feature as people do not generally build their own car parks. If a new car park is added to the dataset then the Ali will have to retrieve the new one.
+Seeing as the dataset is about public car parks, there will be not editing feature as people do not generally build their own car parks. If a new car park is added to the dataset then the api will have to retrieve the new one.
